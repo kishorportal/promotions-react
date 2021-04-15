@@ -1,0 +1,66 @@
+@import "~@coreui/coreui/scss/coreui.scss";
+
+body{
+    letter-spacing: 1px;
+}
+// todo: disabled button styles
+button {
+    &:disabled {
+      cursor: default;
+    }
+    &.disabled {
+      cursor: default;
+    }
+  }
+  
+  // todo: brand button icon margin
+  .btn-brand:not(:only-child) {
+    .c-icon {
+      margin-top: 0 !important;
+    }
+  }
+.img-brnd{
+    width:60px;
+    height:40px;
+}
+.text-muted{
+    color: #bdbbbb !important;
+    font-weight: 400;
+}
+.reset-button{
+    border: 1px solid #ccc;
+    width: 100%;
+    font-weight: 400;
+}
+.form-text{
+    color:#b1afafcc;
+    font-weight: 400 !important;
+}
+.btn-primary{
+    background: #339af0 !important;
+    border-color: #339af0 !important;
+}
+.bg-primary{
+  background: #339af0 !important;
+}
+.activate-btn{
+    margin-top: 32px;
+    width: 100%;
+    background: #339af0;
+    border-color: #339af0;
+}
+.copy-icon{
+    color: #339af0;
+    position: relative;
+    float: right;
+    top: -27px;
+    right: 10px;
+    font-size:17px;
+}
+.form-control[readonly]{
+    background-color: #fff !important;
+}
+.grey-text{
+    color: #bdbbbb !important;
+    font-weight: 400;   
+}
